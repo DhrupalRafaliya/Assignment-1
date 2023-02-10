@@ -1,0 +1,65 @@
+.hero-sec {
+    height: 70vh;
+    background: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'), 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .hero-text-main {
+        font-size: 3.4rem;
+        margin-top: -8.5rem;
+
+        .blue-span {
+            color: $primary-color;
+        }
+    }
+
+    .hr-line {
+        border-bottom: 2px solid gray;
+        width: 80%;
+    }
+
+    .hero-subtxt {
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .hero-btn-grp {
+        margin-top: 20px;
+        gap: 1.5rem;
+
+        .hero-btn {
+            padding: 10px;
+            border-radius: 6px;
+
+        }
+    }
+
+}
+
+
+@media (max-width:730px) {
+    .heading-text{
+        font-size: 2.8rem;
+    }
+    
+   
+}
+
+
+
+@media (max-width:401px) {
+    .heading-text{
+        font-size: 2rem;
+    }
+    .hero-sec{
+height: 80vh;
+    }
+   .hero-sec .hero-subtxt{
+        font-size: 13px;
+    }
+
+
+    .hero-btn-grp{
+        flex-direction: column;
+    }
+}

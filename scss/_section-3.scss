@@ -1,0 +1,68 @@
+.sec-main {
+    padding-inline: 1rem;
+    margin-top: 4rem;
+
+    .hero-3 {
+        .sub-txt {
+            color: $primary-color;
+        }
+
+        .hero-3-hed {
+            font-size: 1.5rem;
+        }
+
+        .hrero-blue {
+            color: $primary-color;
+        }
+    }
+
+    .cat-btn-group {
+        .cat-btn {
+            background-color: $primary-color;
+            color: white;
+            padding: 7px;
+            border-radius: 1rem;
+            font-size: 20px;
+            border: none;
+        }
+    }
+   
+}
+.container {
+    .row {
+        .sec-3-card {
+            .section3-card {
+                border-radius: 10px;
+                padding: 20px 10px;
+                @include BorderBtn(white, $primary-color);
+
+                .upper-content {
+                    gap: 20px;
+
+                    .upp-clm .section-clm {
+                        font-size: 0.8rem;
+                        font-weight: 500;
+                    }
+                    .upp-clm .upp-alm-clr {
+                        color: $primary-color;
+                    }
+                    .upp-clm .small-text {
+                        font-size: 0.7rem;
+                    }
+                    img {
+                        height: 25px;
+                        width: 25px;
+                    }
+                }
+                .middle-content img {
+                    width: 100%;
+                    border-radius: 15px;
+                    padding: 10px 10px;
+                }
+                .lower-content button {
+                    @include BorderBtn(white, $primary-color);
+                }
+            }
+        }
+    }
+}

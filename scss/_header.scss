@@ -1,0 +1,20 @@
+.header {
+    ul {
+        background-color: $primary-color;
+    }
+
+    .nvbar-login .btn-media {
+        color: $primary-color;
+        border: 2px solid $primary-color;
+        border-radius: 8px;
+    }
+}
+
+@media (max-width:992px){
+    .navbar-nav{
+        margin-top: 10px;
+    }
+    .nvbar-login{
+        margin-top: 10px;
+    }
+}
