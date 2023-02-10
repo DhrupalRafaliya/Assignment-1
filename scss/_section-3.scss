@@ -26,14 +26,15 @@
             border: none;
         }
     }
-   
+
 }
+
 .container {
     .row {
         .sec-3-card {
             .section3-card {
+
                 border-radius: 10px;
-                padding: 20px 10px;
                 @include BorderBtn(white, $primary-color);
 
                 .upper-content {
@@ -43,25 +44,41 @@
                         font-size: 0.8rem;
                         font-weight: 500;
                     }
+
                     .upp-clm .upp-alm-clr {
                         color: $primary-color;
                     }
+
                     .upp-clm .small-text {
                         font-size: 0.7rem;
                     }
+
                     img {
                         height: 25px;
                         width: 25px;
                     }
                 }
+
                 .middle-content img {
                     width: 100%;
                     border-radius: 15px;
                     padding: 10px 10px;
                 }
+
                 .lower-content button {
                     @include BorderBtn(white, $primary-color);
                 }
+            }
+        }
+    }
+}
+
+@media (max-width:575px) {
+    .container {
+        .row {
+            .sec-3-card {
+               display: flex;
+               justify-content: center;
             }
         }
     }

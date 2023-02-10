@@ -1,8 +1,10 @@
-.sec-4{
+.sec-4 {
     background-color: rgb(218, 248, 248);
+
     .hero-4 {
         padding-top: 6rem;
         gap: 0.7rem;
+        padding-right: 10px;
 
         .sub-txt-4 {
             color: $primary-color;
@@ -17,32 +19,34 @@
             color: $primary-color;
         }
     }
-    .container{
-        .row{
-            .col-xl-4{
+
+    .container {
+        .row {
+            .col-xl-4 {
                 .sec-4-card-gallary {
                     margin-top: 2rem;
                     gap: 2.5rem;
-            
+
                     .card {
                         .card-img-top {
                             height: 25vh;
                             width: auto;
-                            
+
                         }
-            
+
                         .card-body {
                             justify-content: space-between;
-            
+
                             .hero-hed {
                                 align-items: flex-start;
                                 gap: 0.7rem;
+                                padding-right: 10px;
                             }
-            
+
                             .hero-bold {
                                 font-weight: 800;
                             }
-            
+
                             .hero-sub-txt {
                                 align-items: flex-end;
                                 gap: 0.7rem;
@@ -53,23 +57,25 @@
             }
         }
     }
-    
+
 }
 
 
 @media (max-width:493px) {
-    .sec-main{
+    .sec-main {
         text-align: center;
         flex-direction: column;
     }
-    .sub-txt{
-margin: 2px 0px;
+
+    .sub-txt {
+        margin: 2px 0px;
     }
-    .hero-3-hed{
+
+    .hero-3-hed {
         margin: 5px 0px;
     }
 
-    .cat-btn-group{
-margin: 5px 0px;
+    .cat-btn-group {
+        margin: 5px 0px;
     }
 }
