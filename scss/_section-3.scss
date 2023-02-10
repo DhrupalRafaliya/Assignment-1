@@ -35,7 +35,7 @@
             .section3-card {
 
                 border-radius: 10px;
-                @include BorderBtn(white, $primary-color);
+                @include BorderBtn(white, black);
 
                 .upper-content {
                     gap: 20px;
